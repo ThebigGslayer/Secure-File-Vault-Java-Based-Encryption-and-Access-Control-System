@@ -1,4 +1,4 @@
-# 🔐 Secure File Vault — Java-Based File Encryption System
+#  Secure File Vault — Java-Based File Encryption System
 
 **Secure File Vault** is a command-line security application written in Java that provides **file-level encryption** and **user authentication** to protect sensitive information.
 The system uses industry-standard cryptography (AES encryption and PBKDF2 password hashing)
@@ -6,7 +6,7 @@ and consolidates all core functionality in a single Java module for easy deploym
 
 ---
 
-## ✨ Key Capabilities
+##  Key Capabilities
 
 - **User Authentication System**
   - Register and log in with hashed credentials
@@ -23,7 +23,7 @@ and consolidates all core functionality in a single Java module for easy deploym
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠Tech Stack
 
 | Component           | Details                        |
 |---------------------|--------------------------------|
@@ -35,30 +35,31 @@ and consolidates all core functionality in a single Java module for easy deploym
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 SecureFileVault.java # Full application logic (single module)
 users.txt # User credentials (generated at runtime)
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
-### ✅ Prerequisites
+###  Prerequisites
 
 - Java Development Kit (JDK 8 or later)
 - Terminal or command prompt
 
-### 📦 Compilation
+###  Compilation
 
 
 javac SecureFileVault.java
-▶️ Run the Application
+▶ Run the Application
 bash
 Copy
 Edit
-java SecureFileVault
-🧪 Example Workflow
+java SecureFileVault\
+
+ \\Example Workflow
 
 ===== Secure File Vault =====
 1. Register
@@ -77,7 +78,8 @@ Choose option: 1
 Enter path of file to encrypt: secret.txt
 Enter output encrypted file path: secret.enc
 Encryption complete.
-🔐 Security Considerations
+
+  Security Considerations
 Control Area	Implementation
 Password Security	PBKDF2 key derivation (static salt for demo)
 File Encryption	AES-128 with SHA-256-derived key
@@ -86,22 +88,22 @@ Data Integrity	Not included (can be added via MAC/HMAC)
 
 Note: For production use, implement per-user random salts and secure credential storage (e.g., databases, keystores).
 
-📈 Future Enhancements
-🔁 Replace static salt with user-specific random salt
+ Future Enhancements
+ Replace static salt with user-specific random salt
 
-📊 Activity logging with timestamps
+ Activity logging with timestamps
 
-🖼️ GUI implementation with JavaFX or Swing
+ GUI implementation with JavaFX or Swing
 
-🧾 File integrity validation using HMAC
+ File integrity validation using HMAC
 
-👥 Admin role with user/session management
+ Admin role with user/session management
 
-📄 License
+ License
 This project is licensed under the MIT License.
 Feel free to use, modify, and distribute with proper attribution.
 
-👨‍💻 Author
+ Author
 Saravana Priyan
 Cybersecurity Practitioner | Java Developer
 📎 GitHub: github.com/ThebigGslayer
